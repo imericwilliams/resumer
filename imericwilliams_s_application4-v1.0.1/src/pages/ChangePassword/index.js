@@ -9,12 +9,15 @@ const ChangePasswordPage = () => {
   return (
     <>
       <div className="bg-white_A700 flex flex-col font-montserrat items-center justify-start mx-[auto] p-[18px] w-[100%]">
+      <div className="hidden">
         <Img
           src="images/img_arrowleft_indigo_900.svg"
           className="common-pointer h-[50px] mt-[16px] object-cover md:pl-[20px] sm:pl-[20px] md:pr-[20px] sm:pr-[20px] w-[50px]"
           onClick={() => navigate(-1)}
           alt="arrowleft"
         />
+        </div>
+        
         <Text
           className="mt-[123px] text-indigo_900 text-left tracking-ls05 md:tracking-ls1 sm:tracking-ls1 w-[auto]"
           as="h2"

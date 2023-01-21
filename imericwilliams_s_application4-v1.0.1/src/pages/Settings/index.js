@@ -16,31 +16,15 @@ const SettingsPage = () => {
           <aside className="md:hidden sm:hidden w-[23%]">
             <div className="flex flex-col items-center justify-start w-[100%]">
               <div className="flex flex-col md:gap-[40px] sm:gap-[40px] gap-[800px] items-start justify-start w-[100%]">
+                <div className="hidden">
                 <Img
                   src="images/img_arrowleft.svg"
                   className="common-pointer h-[50px] object-cover w-[50px]"
                   onClick={() => navigate(-1)}
                   alt="arrowleft"
                 />
-                <div
-                  className="common-pointer flex flex-row gap-[9px] items-center justify-start md:w-[100%] sm:w-[100%] w-[auto]"
-                  onClick={() => logout({ logoutParams: { returnTo: loginWithRedirect() } })}
-                >
-                  <Img
-                    src="images/img_share.svg"
-                    className="h-[43px] object-cover w-[43px]"
-                    alt="share"
-                  />
-                  <div className="flex flex-col items-center justify-start w-[67%]">
-                    <Text
-                      className="font-normal not-italic text-indigo_900 text-left tracking-ls025 md:tracking-ls11 sm:tracking-ls11 w-[auto]"
-                      as="h4"
-                      variant="h4"
-                    >
-                      Log out
-                    </Text>
-                  </div>
                 </div>
+                
               </div>
             </div>
           </aside>
@@ -83,6 +67,25 @@ const SettingsPage = () => {
             <Line className="bg-indigo_900 h-[4px] mt-[12px] w-[100%]" />
           </div>
         </div>
+        <div
+                  className="common-pointer flex flex-row gap-[9px] items-center"
+                  onClick={() => logout({ logoutParams: { returnTo: loginWithRedirect() } })}
+                >
+                  <Img
+                    src="images/img_share.svg"
+                    className="h-[43px] object-cover w-[43px]"
+                    alt="share"
+                  />
+                  <div className="flex flex-col items-center">
+                    <Text
+                      className="font-normal not-italic text-indigo_900 text-left tracking-ls025 md:tracking-ls11 sm:tracking-ls11 w-[auto]"
+                      as="h4"
+                      variant="h4"
+                    >
+                      Log out
+                    </Text>
+                  </div>
+                </div>
       </div>
     </>
   );

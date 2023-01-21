@@ -16,7 +16,7 @@ const GeneratedResumePage = () => {
       <div className="bg-white_A700 flex flex-col font-montserrat items-center justify-start mx-[auto] p-[19px] w-[100%]">
         <Img
           src="images/img_close.svg"
-          className="common-pointer h-[50px] mt-[47px] object-cover md:pl-[20px] sm:pl-[20px] md:pr-[20px] sm:pr-[20px] w-[50px]"
+          className="hidden"
           onClick={() => navigate(-1)}
           alt="close"
         />

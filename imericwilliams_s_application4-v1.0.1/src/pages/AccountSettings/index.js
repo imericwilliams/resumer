@@ -13,21 +13,16 @@ const AccountSettingsPage = () => {
           <aside className="md:hidden sm:hidden w-[23%]">
             <div className="flex flex-col items-center justify-start w-[100%]">
               <div className="flex flex-col md:gap-[40px] sm:gap-[40px] gap-[792px] justify-start w-[100%]">
+                <div className="hidden">
                 <Img
                   src="images/img_arrowleft.svg"
                   className="common-pointer h-[50px] object-cover w-[50px]"
                   onClick={() => navigate(-1)}
                   alt="arrowleft"
                 />
+                </div>
                 <div className="flex flex-col items-center justify-start md:ml-[0] sm:ml-[0] ml-[10px] md:w-[100%] sm:w-[100%] w-[96%]">
-                  <Text
-                    className="common-pointer font-bold text-indigo_900 text-left w-[auto]"
-                    as="h5"
-                    variant="h5"
-                    onClick={() => navigate("/deleteaccount")}
-                  >
-                    Delete Account
-                  </Text>
+                  
                 </div>
               </div>
             </div>
@@ -60,6 +55,14 @@ const AccountSettingsPage = () => {
               </div>
               <Line className="bg-indigo_900 h-[4px] w-[100%]" />
             </div>
+            <Text
+                    className="common-pointer font-bold text-indigo_900 text-left w-[auto]"
+                    as="h5"
+                    variant="h5"
+                    onClick={() => navigate("/deleteaccount")}
+                  >
+                    Delete Account
+                  </Text>
           </div>
         </div>
       </div>

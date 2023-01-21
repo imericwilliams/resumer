@@ -9,12 +9,14 @@ const DeleteAccountPage = () => {
   return (
     <>
       <div className="bg-white_A700 flex flex-col font-montserrat items-center justify-start mx-[auto] p-[16px] w-[100%]">
+      <div className="hidden">
         <Img
           src="images/img_close.svg"
           className="common-pointer h-[42px] mt-[22px] object-cover md:pl-[20px] sm:pl-[20px] md:pr-[20px] sm:pr-[20px] w-[42px]"
           onClick={() => navigate(-1)}
           alt="close"
         />
+        </div>
         <Img
           src="images/img_warning.svg"
           className="h-[37px] mt-[215px] object-cover md:pl-[20px] sm:pl-[20px] md:pr-[20px] sm:pr-[20px] w-[auto]"
