@@ -8,6 +8,7 @@ import { Stack } from "./Stack";
 import { Text } from "./Text";
 import { Input } from "./Input";
 import { Button } from "./Button";
+import ProgressBar from "./ProgressBar";
 export {
   Datepicker,
   FloatingButton,
@@ -19,4 +20,5 @@ export {
   Text,
   Input,
   Button,
+  ProgressBar,
 };
