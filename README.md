@@ -1,7 +1,3 @@
-
-
-
-
 ## Overview 
 This application allows you as the user to create a resume in minutes and then download it to make yourself stand out in today's job market. A few of the technologies we used were React.js (for the front end of the app), Typeform API (to embed questionnaires to get insightful user responses to generate the resume), Auth0 (for user authentication), Microsoft Power Automate for resume generation
 
@@ -26,7 +22,31 @@ PDF/Word Doc download
 
 
 ## Demo
-![Start up of the app](https://user-images.githubusercontent.com/42758283/213923541-d9dec84c-4356-47f3-8851-767fde2b9b9a.gif)
+-Start up of the app-
+![startup](https://user-images.githubusercontent.com/42758283/213923541-d9dec84c-4356-47f3-8851-767fde2b9b9a.gif)
+
+-After clicking "Let's Get Started", the user goes through the Typeform integration to make their resume-
+![typeform](https://user-images.githubusercontent.com/42758283/213923665-81d8b8a9-15ec-46dd-9ba6-577a9ba8ce8e.gif)
+
+-Generating the Resume-
+![generatingresume](https://user-images.githubusercontent.com/42758283/213923702-66608744-7436-43ae-95dc-b261f529352f.png)
+
+-Generated Resume-
+![resumess](https://user-images.githubusercontent.com/42758283/213923717-6a9af16a-30cf-4e6e-884c-edbce71d8ce3.png)
+
+-After generating the resume, clicking "Sign Up" allows the user to sign up to download the resume-
+![signup](https://user-images.githubusercontent.com/42758283/213923730-1a934a92-edd4-4367-b7c1-7987e47419f1.gif)
+
+-Logging in with new profile-
+![login](https://user-images.githubusercontent.com/42758283/213923746-3841058d-5272-4e5b-bf6b-5e3968140d75.gif)
+
+-Home navigation-
+![homenav](https://user-images.githubusercontent.com/42758283/213923766-33eb155e-2c55-4fbb-8f8e-f8a3d9f3f355.gif)
+
+-If the user forgot their password-
+![forgotpassword](https://user-images.githubusercontent.com/42758283/213923784-dd81767c-fd9e-4256-af16-71b41d98eb24.gif)
+
+
 
 
 ## Installation
