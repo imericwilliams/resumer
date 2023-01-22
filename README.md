@@ -26,12 +26,13 @@ PDF/Word Doc download
 
 
 ## Demo
+![Start up of the app](https://user-images.githubusercontent.com/42758283/213923541-d9dec84c-4356-47f3-8851-767fde2b9b9a.gif)
 
-PUT GIFS AND SCREENSHOTS AND FORM
 
 ## Installation
 
-## System Requirement
+
+System Requirement
 
 
 - [git](https://git-scm.com/) - v2.13 or greater
@@ -39,13 +40,13 @@ PUT GIFS AND SCREENSHOTS AND FORM
 - [npm](https://www.npmjs.com/) - v6 or greater
 
 
-## Setup
+Setup
 
 
 Setup your project by running the following commands:
 
 
-## Install Dependencies
+Install Dependencies
 
 
     npm install
